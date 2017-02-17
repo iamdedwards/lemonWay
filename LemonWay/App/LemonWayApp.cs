@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Hosting;
 using Owin;
+using System.Numerics;
 
 namespace lemonWay
 {
@@ -53,13 +54,13 @@ namespace lemonWay
 			return (content);
 		}
 		
-		public string Fibonacci(int index)
+		public BigInteger Fibonacci(int index)
 		{
 			var query = new HttpValueCollection();
 			query[nameof(index)] = index.ToString();
 			var address = this.fibonnacciServiceName + query.ToString();
 			
-			var content = getContent<string>(address);
+			var content = getContent<int>(address);
 			return (content);
 		}
 		

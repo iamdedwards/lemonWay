@@ -12,7 +12,7 @@ namespace lemonWay.Controllers
         private static readonly ILog Log = LogManager.GetLogger(typeof(FibonacciController).Name);
 
 		[HttpGet]
-		public string Get(int index)
+		public BigInteger Get(int index)
 		{
 			Log.Info($"|GET| query=\"index={index}\"\n");
 			BigInteger value;
@@ -27,7 +27,7 @@ namespace lemonWay.Controllers
 				value = (FibonacciController.sequence.ElementAt(index - 1));
 			}
 			Log.Info($"return {value}");
-			return (value.ToString());
+			return (value);
 		}
 	}
 }
