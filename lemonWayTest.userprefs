@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{B91AAE05-C220-4242-B675-9FAE9264901B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lemonWayTest/Properties/AssemblyInfo.cs">
+    <Files>
+      <File FileName="lemonWayTest/Properties/AssemblyInfo.cs" Line="13" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="lemonWayTest" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.lemonWayTest PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,20 @@
+﻿INFO | FibonacciController[17 02 2017 09:27]
+ => |GET| query="index=10"
+
+INFO | FibonacciController[17 02 2017 09:27]
+ => return 55
+INFO | FibonacciController[17 02 2017 09:28]
+ => |GET| query="index=10"
+
+INFO | FibonacciController[17 02 2017 09:28]
+ => return 55
+INFO | FibonacciController[17 02 2017 09:29]
+ => |GET| query="index=10"
+
+INFO | FibonacciController[17 02 2017 09:29]
+ => return 55
+INFO | FibonacciController[17 02 2017 09:30]
+ => |GET| query="index=10"
+
+INFO | FibonacciController[17 02 2017 09:30]
+ => return 55
